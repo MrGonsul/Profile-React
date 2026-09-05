@@ -1,16 +1,97 @@
-# React + Vite
+<h1 align="center">Profile-React</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=180&section=header&text=Profile-React&fontSize=50&fontAlignY=35&animation=fadeIn&fontColor=FFFFFF" width="100%" />
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <b>Personal Website built with React ⚛️</b>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📖 About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Profile-React** is a personal website created as a static frontend page using **React, HTML, CSS, and JavaScript**.
 
-## Expanding the Oxlint configuration
+The project is designed to practice **React fundamentals**, component-based development, styling, and modern frontend development using **Vite**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Technologies
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,js,react,vite&perline=5" />
+  </a>
+</p>
+
+## ⚛️ React
+
+This project uses React to build the website with reusable components and a simple component-based structure.
+
+### Components
+
+```text
+src/
+├── component/
+│   ├── Header
+│   ├── Main
+│   └── Footer
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## ⚡ Vite
+
+Vite is used as the development environment and build tool for the project.
+
+### Start Development Server
+
+```bash
+npm install
+```
+
+```bash
+npm run dev
+```
+
+Then open the **Local URL** displayed in the terminal.
+
+### Build
+
+```bash
+npm run build
+```
+
+The production files are generated inside:
+
+```text
+dist/
+```
+
+## 📌 Project Goals
+
+* Learn React fundamentals
+* Practice reusable components
+* Improve HTML and CSS skills
+* Practice JavaScript with React
+* Learn Vite workflow
+* Build a personal static website
+
+
+## 👨‍💻 Author
+
+<p align="center">
+  <b>Abdalmohimn AL Gonsul</b>
+</p>
+
+<p align="center">
+  Software Engineering Student • Developer • Gamer
+</p>
+
+<p align="center">
+  <a href="https://github.com/MrGonsul">
+    <img src="https://img.shields.io/badge/GitHub-Mr_Gonsul-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
