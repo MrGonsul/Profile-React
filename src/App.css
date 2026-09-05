@@ -163,8 +163,10 @@ footer .container {
     text-align: center;
     justify-content: space-around;
     align-items: center;
-    cursor: pointer;
+}
 
+.links .container i,.links .container p {
+    cursor: pointer;
 }
 
 .links p {
