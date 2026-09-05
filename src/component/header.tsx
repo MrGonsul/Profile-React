@@ -6,7 +6,7 @@ function Header() {
       <div className="content">
         <div className="container">
           <div className="image">
-          <img src="public/DD.jpg" alt="Profile" />
+              <img src="../profile.jpg" />     
           </div>
           <div className="info">
             <h2>Mr Gonsul</h2>
