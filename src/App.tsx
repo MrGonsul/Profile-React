@@ -1,14 +1,16 @@
-export default App
 import Header from "./component/header";
 import Main from "./component/main";
 import Footer from "./component/footer";
+import { BrowserRouter } from "react-router-dom";
 
-function App (){
+function App() {
   return (
-    <>
-    <Header />
-    <Main />
-    <Footer />
-    </>
-  )
+    <BrowserRouter basename="/profile-react">
+      <Header />
+      <Main />
+      <Footer />
+    </BrowserRouter>
+  );
 }
+
+export default App;
