@@ -6,7 +6,7 @@ function Header() {
       <div className="content">
         <div className="container">
           <div className="image">
-              <img src="/profile.JPG" alt="Profile" />      
+            <img src="/profile-react/profile.png" alt="Profile" />
           </div>
           <div className="info">
             <h2>Mr Gonsul</h2>
