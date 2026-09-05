@@ -1,5 +1,4 @@
 export default Header
-import profile from "../assets/profile.jpg";
 
 function Header() {
   return (
@@ -7,7 +6,7 @@ function Header() {
       <div className="content">
         <div className="container">
           <div className="image">
-              <img src={profile} alt="Profile" />      
+              <img src="./profile" alt="Profile" />      
           </div>
           <div className="info">
             <h2>Mr Gonsul</h2>
